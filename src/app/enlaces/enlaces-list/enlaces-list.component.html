@@ -1,0 +1,10 @@
+<p>Hola Enlaces</p>
+<ul>
+  <li *ngFor='let enlace of enlaces'>
+    <h3>
+      <a href="{{ enlace.url}}">
+        {{enlace.asunto}}
+      </a>
+    </h3>
+  </li>
+</ul>
