@@ -1,6 +1,7 @@
 import { NgModule }    from '@angular/core';
 import { CommonModule} from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { UsuariosRoutingModule } from './usarios-routing/usuarios-routing.module';
 import { UsuariosBuscarComponent } from './usuarios-buscar/usuarios-buscar/usuarios-buscar.component';
 // hasta acá imports propios de Angular
 
@@ -11,10 +12,12 @@ import { UsuariosBuscarComponent } from './usuarios-buscar/usuarios-buscar/usuar
 
 @NgModule({
   declarations: [
-  UsuariosBuscarComponent],
+  UsuariosBuscarComponent
+  ],
   imports: [
     CommonModule,
     FormsModule,
+    UsuariosRoutingModule
   ],
   exports: [
   ],

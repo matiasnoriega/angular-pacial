@@ -6,7 +6,7 @@ import { UsuariosBuscarComponent } from '../usuarios-buscar/usuarios-buscar.comp
 
 const routes: Routes = [
   { 
-    path: '',
+    path: 'buscar',
     component: UsuariosBuscarComponent,
     pathMatch: 'full'
   },
@@ -16,4 +16,4 @@ const routes: Routes = [
   imports: [ RouterModule.forChild(routes)],
   exports: [ RouterModule ]
 })
-export class AppRoutingModule {}
+export class UsuariosRoutingModule {}
